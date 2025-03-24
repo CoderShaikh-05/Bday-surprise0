@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff4500;
+            font-size: 50px;
+            text-shadow: 2px 2px 5px black;
+        }
+        p {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+        #secretMessage {
+            display: none;
+            background-color: #ffcccb;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        button {
+            background-color: #ff4500;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px black;
+        }
+        button:hover {
+            background-color: #ff6347;
+        }
+        .birthday-img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 Happy Birthday, Aman! 🎂</h1>
+    
+    <div class="container">
+        <p>Hey Aman! 🎂</p>
+        <p>From the past <span style="color: yellow;">5,6 years</span>, I know you, and you are a <span style="color: cyan;">wonderful person</span>. 😊</p>
+        <p>May your birthday be filled with lots of <span style="color: lightgreen;">joy</span>, <span style="color: pink;">love</span>, and <span style="color: orange;">laughter</span>. Wishing you all the success in your medical journey! 🩺🎉</p>
+        <p>Have an amazing day! 🎊</p>
+
+        <!-- Cake Image -->
+        <img src="https://cdn.pixabay.com/photo/2016/04/20/11/52/birthday-1344692_1280.jpg" alt="Birthday Cake" class="birthday-img">
+
+        <br>
+        <button onclick="showMessage()">Click for a Surprise!</button>
+
+        <p id="secretMessage">
+            🎁 *Surprise Message!* 🎁 <br><br>
+            Hey dear, I just want to say that you are really <span style="color: red;">special</span> to me. Even though we are far apart, you have always been an <span style="color: blue;">amazing friend</span>! Wishing you all the <span style="color: green;">happiness</span> in the world. 🎉😊  
+            <br><br>
+            *Happiest Birthday to the most amazing, handsome, hot, charming, awesome, lovely, and sweetest person ever!* ✨ You are truly one of a kind, and I’m so lucky to have a friend like you. 💖  
+            May your day be as fantastic and wonderful as you are! Stay happy, stay blessed, and keep shining like the star you are! ⭐💖
+        </p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("secretMessage").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
